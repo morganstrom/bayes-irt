@@ -5,7 +5,7 @@ library(tidyr)
 library(dplyr)
 rstan_options(auto_write = TRUE)
 options(mc.cores = parallel::detectCores())
-setwd('~/Dropbox/R/srug_preso/')
+setwd('~/gitarchives/bayes-irt/')
 
 # Data processing
 # ---------------
